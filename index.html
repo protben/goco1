@@ -15,10 +15,13 @@
    font-size:16px;
   }
   a{
-       font-weight: bold;
+    font-weight: bold;
     text-decoration: none;
     color: rgb(2, 42, 30);
    margin:5px;
+  }
+  .bold{
+   font-weight:bold;
   }
   button{
        border: none;
@@ -124,6 +127,7 @@
        display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
+   max-width: 80%;
 }
   .section9 > div{
        display: flex;
@@ -132,6 +136,11 @@
     align-items: center;
     box-shadow: 0px 0px 16px 16px rgb(0 0 0 / 5%);
     border-radius: 8px;
+   margin: 15px;
+    padding: 30px;
+  }
+  .footer-links{
+   display:flex;
   }
   
    
@@ -235,14 +244,16 @@ for a job?
     
 </div>
 <div class="footer">
-  <p>We hire our talent directly. No recruitment agencies, sorry.</p>
+  <p class="bold">We hire our talent directly. No recruitment agencies, sorry.</p>
   <br>
   <p>Copyright (C) 2020 Gocompare.com Limited All Rights Reserved</p>
   <p>Gocompare.com Limited is registered in England and Wales (Company No. 5799376).</p>
   <p>Registered office: Imperial House, Imperial Way, Newport, Gwent, NP10 8UH, United Kingdom</p>
+ <div class="footer-links">
   <a href="/modern-slavery-statement/">Modern Slavery Statement</a> 
   <a href="/cookies-policy/"> Cookie Policy</a> 
   <a href="/terms-and-conditions/">Terms and Conditions</a> 
+ </div>
 </div>
 </body>
 </html>
