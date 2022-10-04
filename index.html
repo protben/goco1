@@ -41,6 +41,15 @@
     justify-content: space-between;
     align-items: center; 
   } 
+  @media only screen and (max-width: 600px){
+  .header {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+  }
+}
   .banner-div{
     position: absolute;
     width: 100%;
@@ -135,6 +144,11 @@
    margin: 40px;
     text-align: center;
   }
+    @media only screen and (max-width: 600px){
+  .section6 > div > h2  {
+    margin:0px
+  }
+}
   .section9{
        display: grid;
     grid-template-columns: 1fr 1fr;
