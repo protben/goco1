@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
  <style>
- html{
-  color:red
+  .header{
+      display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
+  .banner{
+   position:relative;
+   .banner-div{
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+   }
+  img{
+   width:100%;
+  }
+   
  </style>
 <body>
 <div class="header">
@@ -23,8 +38,10 @@
 </div>
 <div class="banner">
  <img width="117" alt="goco-group-banner" src="https://user-images.githubusercontent.com/115018693/193867617-7b018f9b-0937-439c-acf7-d93d27cf102e.png">
+ <div class="banner-div">
   <p>Find your next job with GoCo</p>
   <button>Go for it</button>
+ </div>
 </div>
 <div class="main">
     <div class="section1">
